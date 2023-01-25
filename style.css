@@ -1,0 +1,73 @@
+.contenedor {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.seccion1 {
+  width: 50vh;
+  height: 50vh;
+  background-color: slategrey;
+}
+
+.seccion2 {
+  width: 50vh;
+  height: 50vh;
+  background-color: slategrey;
+}
+
+.seccion3 {
+  width: 50vh;
+  height: 50vh;
+  background-color: slategrey;
+}
+
+article {
+  text-align: center;
+  border-radius: 30%;
+  cursor: pointer;
+}
+article:hover {
+  transition: ease-in-out 500ms;
+  background-color: rgb(199, 12, 12);
+  width: 333px;
+  height: 333px;
+  box-shadow: black 1px 1px 20px;
+}
+
+p {
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+article img {
+  height: 160px;
+  width: 120px;
+}
+
+body {
+  background-color: dodgerblue;
+}
+
+.elije {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: black 3px 1px;
+}
+
+.contador {
+  text-align: center;
+  font-size: small;
+  display: grid;
+}
+
+.imagen_oculta {
+  display: flex;
+  position: relative;
+  top: -400px;
+  left: 30%;
+  z-index: 1;
+}
